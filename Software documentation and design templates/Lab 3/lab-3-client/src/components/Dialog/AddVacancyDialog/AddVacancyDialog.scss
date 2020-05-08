@@ -1,0 +1,12 @@
+.dialog{
+  width: 90rem;
+}
+
+.input-fields-container {
+  display: flex;
+  flex-direction: column;
+
+  .input-field {
+    margin: 1rem;
+  }
+}

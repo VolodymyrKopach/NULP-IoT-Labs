@@ -1,0 +1,19 @@
+.vacancy-table {
+  display: flex;
+  flex-direction: column;
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+
+    .title{
+      margin: 0.5rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .add-vacancy-button{
+      margin: 1rem;
+    }
+  }
+}
