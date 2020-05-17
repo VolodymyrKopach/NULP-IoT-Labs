@@ -9,8 +9,8 @@ public class RedisUtil {
 
     public void startConnection() {
         boolean useSsl = true;
-        String cacheHostname = "kopach-db-lab-5.redis.cache.windows.net";
-        String cachekey = "TGB8PDKX+WcxhR8v3tLinAsYAJvnnHbXeWqxjlt6Ch8=";
+        String cacheHostname = "cache hostname from redis";
+        String cachekey = "cache key from redis";
 
         JedisShardInfo shardInfo = new JedisShardInfo(cacheHostname, 6380, useSsl);
         shardInfo.setPassword(cachekey);

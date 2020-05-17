@@ -19,4 +19,4 @@
   #  port: 9000
 
   eventHub:
-    connectionString: Endpoint=sb://kopach-db-lab-5-namespace.servicebus.windows.net/;SharedAccessKeyName=PreviewDataPolicy;SharedAccessKey=2A6G3wMz5T4qeSPtd7wyI5elfAOECY/shrX4BcQ9aVk=;EntityPath=kopach-lab-5-event-concentrator
+    connectionString: "connection string to Event Hub"

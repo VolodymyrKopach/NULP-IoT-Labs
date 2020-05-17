@@ -1,7 +1,6 @@
 package com.db.lab5.constants;
 
 public class RedisConstants {
-    //value
     public static final String READ_STATUS = "read_status";
     public static final String STARTED = "Started";
     public static final String COMPLETED = "Completed";
